@@ -1,0 +1,20 @@
+{
+  "name": "refine-2023",
+  "version": "1.0.0",
+  "description": "Grammar check and rephrase app with OpenAI",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Jenny Kim",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "openai": "^3.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
