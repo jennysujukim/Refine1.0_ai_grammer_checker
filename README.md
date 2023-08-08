@@ -5,18 +5,14 @@
   <h1 align="center">RE:FINE v1.0</h1>
 
   <p align="center">
-    SPA that users can sign up, calculate, and track daily protein intake.
+    Correct grammar and refine your sentences using Open AI.
     <br />
     <br />
     <a href="https://re-fine.seojeongkim.com/" target="_blank">🚀 View Live Demo</a>
     ·
-    <a href="https://github.com/jennysujukim/Daily-Protein-v1.0">📝 Explore Docs</a>
+    <a href="https://github.com/jennysujukim/refine-2023">📝 Explore Docs</a>
   </p>
 </div>
-
-<br />
-
-<p align="center">Daily Protein v2.0 is released. <a href="https://github.com/jennysujukim/Daily-Protein-v2.0" target="_blank">Click here</a> to go to version 2 repository.</p>
 
 <br />
 
@@ -36,14 +32,11 @@
 <a name="about-project"></a>
 
 ### Purpose
-Daily Protein is a user-friendly Single Page Application that helps users in monitoring their daily protein intake. With Daily Protein, users can effortlessly calculate their required protein amount for each day and set targets to track their progress by searching and logging meals on the app.
+RE:FINE is a web application that allows users to check and refine their sentences using AI. Through a user-friendly chat interface, you can input initial sentences and promptly receive the polished versions. As a non-native English speaker, I have relied on AI particularly chatGPT to modify sentences. RE:FINE eliminates the need for additional commands and simplifies the process of verifying grammar and improving sentence structure.
 
 ### Key Features
-- Sign up / Sign in account
-- Save and update personal diet data 
-- Calculate daily protein intake
-- Search foods to retrieve detailed nutrition info
-- Add foods to personal dashboard and track protein intake
+- User-friendly chat interface
+- Ask AI to check grammar and refine sentences
 
 <br />
 
@@ -51,56 +44,22 @@ Daily Protein is a user-friendly Single Page Application that helps users in mon
 ## 🔭 Roadmap 
 <a name="roadmap"></a>
 
-> Version 1.0 
-
-At this stage, I focused on developing frontend style and functionalities. So I implemented Firebase firestore for database to achieve CRUD operations as serverless. 
-
-- [X] Design client side view with React.js and Sass
-- [X] Feat RESTful API to fetch food data and create search function
-- [X] Feat protein calculation function
-- [X] Feat Firebase Firestore to CRUD data
-- [X] Feat Firebase Auth to authenticate user
+- [X] Design client side view with HTML and CSS
+- [X] Connect OpenAI API and create backend server to control requests & responses
+- [X] Fetch data from client side using REST API
+- [X] Feat functions to format chat interface
+- [] Implement Vue.js for the client side view
+- [] Feat Clipboard API to allow users to copy the responses
 
 <br/>
 
 <p>
-  <a href="https://daily-protein-v1.seojeongkim.com/" target="_blank">
-    🚀 View V1 Live Demo
-  </a>
-  ·
-  <a href="https://github.com/jennysujukim/daily-protein-v1.0">
-    📝 Explore V1 Docs
+  <a href="https://re-fine.seojeongkim.com/" target="_blank">
+    🚀 View Live Demo
   </a>
 </p>
 
 <br />
-
-> Version 2.0
-
-In Version 2.0, I separated frontend and backend to practice full-stack development workflow. On the client side, I implemented a robust CSS framework and libraries to ensure a consistent design. Additionally, I refactored the code using TypeScript for better maintainability and ease of debugging. To manage states across components, I integrated Redux Toolkit. For the backend, I built a server using Express.js and connected it to a MongoDB Atlas database instead of Firebase.
-
-- [X] Organize folder structure to 'clent' and 'server'
-- [X] Design client side view with Material UI and Tailwind CSS
-- [X] Refactor code with Typescript
-- [X] Feat Redux Tookit to manage states for Auth and forms
-- [X] Feat server with Express.js
-- [X] Connect server and client side with Axios http requests
-- [X] Migrate and connect database to server using Mongo DB Atlas
-
-<br/>
-
-<p>
-  <a href="https://daily-protein.seojeongkim.com/" target="_blank">
-    🚀 View V2 Live Demo
-  </a>
-  ·
-  <a href="https://github.com/jennysujukim/Daily-Protein-v2.0">
-    📝 Explore V2 Docs
-  </a>
-</p>
-
-<br />
-
 
 <!-- BUILT WITH -->
 ## 🛠 Built With 
@@ -108,14 +67,16 @@ In Version 2.0, I separated frontend and backend to practice full-stack developm
 
 > Frontend
 <p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React.js" width="40" height="40"/> &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" title="Sass" width="40" height="40"/> &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" title="HTML" width="40" height="40"/> &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" title="CSS" width="40" height="40"/> &nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" title="JavaScript" width="40" height="40" /> &nbsp;
+          
 </p>
 
 > Backend
 <p>
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="Node.js" width="40" height="40" /> &nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" width="40" height="40"/> &nbsp;     
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="Express.js" width="40" height="40" /> &nbsp;         
 </p>
 
 <br />
@@ -124,9 +85,7 @@ In Version 2.0, I separated frontend and backend to practice full-stack developm
 ## 🙏 Acknowledgments
 <a name="acknowledgments"></a>
 
-* [Edamam Food database API](https://developer.edamam.com/food-database-api)
-* [Bodybuilding Protein Calculator](https://www.bodybuilding.com/fun/calpro.htm)
-* [Firebase Github open source code](https://github.com/firebase/)
+* [OpenAI GPT API](https://platform.openai.com/docs/guides/gpt)
 
 <br />
 
