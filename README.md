@@ -48,8 +48,8 @@ RE:FINE is a web application that allows users to check and refine their sentenc
 - [X] Connect OpenAI API and create backend server to control requests & responses
 - [X] Fetch data from client side using REST API
 - [X] Feat functions to format chat interface
-- [] Implement Vue.js for the client side view
-- [] Feat Clipboard API to allow users to copy the responses
+- [ ] Implement Vue.js for the client side view
+- [ ] Feat Clipboard API to allow users to copy the responses
 
 <br/>
 
